@@ -29,24 +29,6 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
-  - block: markdown
-    content:
-      title: '🤖 About My Work'
-      subtitle: ''
-      text: |-
-        I am an Artificial Intelligence graduate from FAST-NUCES in Islamabad, currently building Generative AI and computer vision systems at Automotive AI GmbH. I focus on perception for autonomous platforms, reinforcement learning for embodied agents, and multimodal pipelines that blend language, vision, and geospatial context.
-
-        **Primary interests:** Computer Vision · Generative AI · Robotics · Reinforcement Learning · Embedded Systems.
-
-        **What I'm working on:**
-
-        - Scaling perception and planning stacks for autonomous mobility and smart-city robotics.
-        - Deploying multimodal models (vision, language, telemetry) that explain predictions and automate reporting.
-        - Translating research—like FACT++ hand keypoint fusion—into reproducible baselines and production-ready code.
-
-        I'm always excited to collaborate on impactful computer vision, robotics, and AI-for-good initiatives. Reach out via email or LinkedIn if you'd like to jam on an idea.
-    design:
-      columns: '1'
   - block: collection
     id: papers
     content:
