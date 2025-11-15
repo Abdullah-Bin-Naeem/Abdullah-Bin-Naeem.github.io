@@ -1,19 +1,17 @@
 ---
-title: SentimentFusion — Multimodal Sentiment Analysis
-date: 2023-11-20
+title: Remote Sensing Segmentation with Partial Labels
+date: 2025-05-15
 links:
   - type: github
-    url: https://github.com/Abdullah-Bin-Naeem
+    url: https://github.com/Abdullah-Bin-Naeem/Remote-Sensing-Image-Segmentation-with-Partially-annotated-labels
 tags:
-  - Multimodal
-  - NLP
   - Computer Vision
+  - Semantic Segmentation
+  - Remote Sensing
 ---
 
-SentimentFusion marries BERT-based caption embeddings with ResNet-50 image features to perform multimodal sentiment analysis, surpassing 90% accuracy on internal training and test splits.
+A semantic segmentation model for remote sensing images trained with sparse (point-based) annotations. This project uses a ResNet18-based architecture and a custom Partial Cross Entropy (CE) Loss to effectively train on the ISPRS Potsdam dataset with only 22.2% of pixels labeled, reducing the need for dense, pixel-wise ground truth.
 
-<!--more-->
-
-- Crafted a gated fusion block that balances textual nuance with visual cues.
-- Added Grad-CAM style overlays plus textual rationale extraction for explainability.
-- Delivered a lightweight dashboard for curators to audit and relabel edge cases.
+- Implemented a custom Partial Cross Entropy Loss function with a focal parameter (γ=2) to train a segmentation model using only sparse point annotations (20,000 points per image).
+- Leveraged a ResNet18 encoder with a custom decoder and frequency-based class weights to address significant class imbalance in the ISPRS Potsdam dataset.
+- Achieved 65.7% mIoU, a significant improvement over the 58.3% mIoU baseline without class weights, demonstrating the effectiveness of the partial-label approach.
