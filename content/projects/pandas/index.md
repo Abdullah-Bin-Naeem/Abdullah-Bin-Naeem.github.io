@@ -1,15 +1,19 @@
 ---
-title: Pandas
-date: 2023-10-26
+title: EcoDrive — Autonomous Waste Collection Car
+date: 2024-04-15
 links:
-  - type: site
-    url: https://github.com/pandas-dev/pandas
+  - type: github
+    url: https://github.com/Abdullah-Bin-Naeem
 tags:
-  - Hugo
-  - HugoBlox
-  - Markdown
+  - Robotics
+  - Reinforcement Learning
+  - Smart Cities
 ---
 
-Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.
+Proof-of-concept autonomous car that responds to smart-bin signals to optimize city waste collection. EcoDrive runs on an NVIDIA Jetson Nano, fusing perception and planning through PPO/SAC agents trained inside CARLA and Donkey Car simulators with camera-only inputs.
 
 <!--more-->
+
+- Designed adaptive routing that balances fill-level priority, travel time, and safety.
+- Implemented on-vehicle semantic segmentation for bin detection plus MQTT telemetry for dispatch.
+- Validated the policy in simulation before deploying to a scaled hardware prototype for live demos.
