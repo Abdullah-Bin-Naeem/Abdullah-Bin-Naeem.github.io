@@ -43,10 +43,8 @@ profiles:
 
 interests:
   - Computer Vision
-  - Generative AI
   - Robotics
   - Reinforcement Learning
-  - Embedded Systems
 
 education:
   - area: BS Artificial Intelligence
@@ -67,7 +65,7 @@ work:
     date_start: 2025-06-01
     date_end: ''
     summary: |
-      Contributing to Generative AI and computer vision initiatives for autonomous systems, emphasizing rapid experimentation and measurable impact.
+      Contributing to cutting-edge Generative AI and Computer Vision projects.
   - position: AI Intern
     company_name: Nokia
     company_url: 'https://www.nokia.com/'
@@ -178,6 +176,8 @@ awards:
       Advanced Computer Vision (Udemy); Deep Learning & Reinforcement Learning (IBM); Data Science & Machine Learning Bootcamp (Udemy).
 ---
 
-I am an Artificial Intelligence graduate based in Islamabad, Pakistan, focused on computer vision, Generative AI, and robotics. I love building systems that translate research breakthroughs into resilient products and solving real-world problems with equal parts innovation and collaboration.
+I am an AI developer focused on robotics, computer vision, and reinforcement learning. My goal is to build technology that empowers, with a core interest in systems that assist people with disabilities.
 
-My current work spans perception for autonomous platforms, reinforcement learning for embodied agents, and multimodal systems that fuse language, vision, and geospatial cues. I thrive in teams that experiment boldly, learn continuously, and obsess over deployment-ready AI.
+My research and work interests include:
+  -Embodied AI: Exploring the synergy of perception, control, and morphology.
+  -Autonomous Vehicles: Developing robust perception and control models.
